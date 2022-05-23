@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/22f4179f-ebe0-4581-88fc-8dfa7596da7d/resourceGroups/ats-lnd1-p-rsg-Azure_Web_Site/providers/Microsoft.Web/sites/azurecesro",
+    "appService.deploySubpath": "."
+}
