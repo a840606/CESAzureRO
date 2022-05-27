@@ -21,7 +21,8 @@ $font--scale: (
 	epsilon: 	( 20px, 30px, -0.1px ),
 	zeta:    	( 18px, 28px, -0.1px ),
 	eta:     	( 16px, 24px, -0.1px ),
-	theta:   	( 14px, 22px, null )
+	theta:   	( 14px, 22px, null ),
+	sigma:		( 1rem, 28px, -0.1px)
 );
 
 // Base elements: font size
@@ -32,9 +33,9 @@ $font--size: (
 	h3:				'delta',
 	h4:				'delta',
 	base:			'epsilon',
-	sm:				'zeta',
+	sm:				'sigma',
 	xs:				'eta',
-	xxs:			'theta',
+	xxs:			'delta',
 	bquote: 		'epsilon',
 	figcap: 		'theta',
 	code: 			'eta',

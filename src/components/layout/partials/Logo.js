@@ -19,13 +19,13 @@ const Logo = ({
       className={classes}
     >
       <h1 className="m-0">
-        <Link to="/">
+        <a href="https://atos.net/ro/romania">
           <Image
             src={require('./../../../assets/images/logo.svg')}
             alt="Open"
-            width={32}
-            height={32} />
-        </Link>
+            width={200}
+            height={200} />
+        </a>
       </h1>
     </div>
   );

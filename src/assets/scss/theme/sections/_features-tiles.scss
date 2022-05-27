@@ -3,3 +3,20 @@
 	border-radius: 50%;
 	background-color: get-color(primary, 3);
 }
+
+.features-tiles-item-image-blank {
+	display: inline-flex;
+	border-radius: 50%;
+	background-color: #ffffff00;
+}
+.features-tiles-item-image-white {
+	display: inline-flex;
+	border-radius: 100;
+	background-color: #ffffff;
+}
+.customers{
+	font-size: xx-large;
+	justify-content: center;
+	display: flex;
+	margin-bottom: 10%;
+}

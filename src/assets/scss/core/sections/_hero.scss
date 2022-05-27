@@ -6,6 +6,64 @@
 	}
 }
 
+.row-align{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+// .tooltip{
+// 	position: relative;
+// 	display: inline-block;
+
+// }
+
+a.tip {
+    
+    text-decoration: none
+}
+a.tip:hover {
+    cursor: help;
+    position: relative
+}
+a.tip span {
+    display: none
+}
+a.tip:hover span {
+    border: #c0c0c0 1px dotted;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    left: 0px;
+    margin: 10px;
+    width: 250px;
+    position: relative;
+    top: 150px;
+    text-decoration: none
+}
+
+a[data]:hover:after {
+	content: attr(data);
+	padding: 4px 8px;
+	color: #9CA9B3;
+	position: absolute;
+	left: 0;
+	top: -20%;
+	white-space: nowrap;
+	z-index: 2;
+	border-radius: 5px ;
+	background: rgba(0,0,0,0.5);
+  }
+
+  .blank-space{
+	  width: 10%;
+	  
+  }
+  .blank-space-height{
+	  margin-bottom: 10%;
+  }
+  //TODO: de rezolvat partea ca se vede un link in spate
+
 .hero-inner {
 
 	// Affects only hero full

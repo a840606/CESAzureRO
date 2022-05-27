@@ -135,8 +135,8 @@
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	margin-right: -($button-group-padding * 0.5);
-	margin-left: -($button-group-padding * 0.5);
+	margin-right: -($button-group-padding * 9);
+	margin-left: -($button-group-padding * 9);
 	margin-top: -($button-group-padding * 0.5);
 
 	&:last-of-type {

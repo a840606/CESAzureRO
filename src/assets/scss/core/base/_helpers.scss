@@ -67,6 +67,17 @@
 	color: color(primary);
 }
 
+.azure-title-color{
+	background: linear-gradient(to right, #3366ff 0%, #9999FF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.romania-team-color{
+	background: linear-gradient(to right, #ff3333 0%, #eaff2e, #3366ff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 .text-color-secondary {
 	color: color(secondary);
 }
