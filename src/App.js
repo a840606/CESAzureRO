@@ -13,6 +13,9 @@ import Overview from './views/Overview';
 import ServiceOfferings from './views/ServiceOfferings';
 import References from './views/References_portofolio';
 import Processes from './views/Processes_Technologies';
+import Contact from './views/Contact';
+import AboutUs from './views/AboutUs';
+
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -45,6 +48,8 @@ const App = () => {
           <AppRoute exact path="/serviceofferings" component={ServiceOfferings} layout={LayoutDefault}/>
           <AppRoute exact path="/processandtechnologies" component={Processes} layout={LayoutDefault}/>
           <AppRoute exact path="/references" component={References} layout={LayoutDefault}/>
+          <AppRoute exact path="/contact" component={Contact} layout={LayoutDefault}/>
+          <AppRoute exact path="/aboutus" component={AboutUs} layout={LayoutDefault}/>
           
         </Switch>
       )} />

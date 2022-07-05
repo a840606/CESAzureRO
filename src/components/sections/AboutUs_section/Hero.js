@@ -121,9 +121,16 @@ const Hero = ({
             videoTag="iframe" />
         </div>
       </div>
-      <div className='cardcontainer'>
+      <div >
+      <h1 class="section-header">Why us?</h1>
+      <Image
+                      src={require('./../../../assets/images/aboutus0.SVG')}
+                      alt="Features tile icon 02"
+                      width={1000}
+                      height={400} 
+                    />
                        <Image
-                      src={require('./../../../assets/images/animatedcloud.jpg')}
+                      src={require('./../../../assets/images/aboutus1.SVG')}
                       alt="Features tile icon 02"
                       width={1000}
                       height={400} 

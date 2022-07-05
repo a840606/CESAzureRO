@@ -127,6 +127,22 @@
 	max-width: 100vw;
 }
 
+@keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+.cardcontainer img {
+    animation: zoominoutsinglefeatured 5s 3 ease-in-out ;
+}
+
 // Helper class for coloured bg
 .has-bg-color {
 	position: relative;

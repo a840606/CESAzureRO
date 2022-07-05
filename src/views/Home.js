@@ -5,7 +5,7 @@ import FeaturesTiles from '../components/sections/Home_sections/FeaturesTiles';
 import FeaturesSplit from '../components/sections/Home_sections/FeaturesSplit';
 import Testimonial from '../components/sections/Home_sections/Testimonial';
 import Cta from '../components/sections/Home_sections/Cta';
-
+import StartFromTop from '../utils/StartFromTop';
 const Home = () => {
 
   return (
@@ -15,6 +15,7 @@ const Home = () => {
       {/* <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
       <Testimonial topDivider />
       <Cta split /> */}
+      <StartFromTop/>
     </>
   );
 }

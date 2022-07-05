@@ -121,15 +121,36 @@ const Hero = ({
             videoTag="iframe" />
         </div>
       </div>
-      <div className='cardcontainer'>
-                       <Image
-                      src={require('./../../../assets/images/animatedcloud.jpg')}
+      <h1 class="section-header">Work with us</h1>
+  
+  <div class="contact-wrapper">
+    
+  
+
+    
+    <form id="contact-form" class="form-horizontal" role="form">
+       
+      <div class="form-group">
+      <Image
+                      src={require('./../../../assets/images/UBC1.jpg')}
                       alt="Features tile icon 02"
-                      width={1000}
-                      height={400} 
+                      width={600}
+                      height={600} 
                     />
-   </div>
+                    </div>
+    </form>   
+      <div class="direct-contact-container">
+        <ul class="contact-list">
+          <h3>Atos Head Office</h3>
+          <p >Piața Consiliul Europei nr. 2A, Timișoara 300254, Romania</p> 
+          <p ><a href="mailto:dl-ro-cloud-azureops@atos.net" title="Send me an email">dl-ro-cloud-azureops@atos.net</a></p>
+        </ul>
+      </div>
+      
+    
+  </div>
     </section>
+    
   );
 }
 

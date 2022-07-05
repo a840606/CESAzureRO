@@ -61,7 +61,7 @@ const FeaturesSplit = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <p>Supporting customer’s</p>
+          <SectionHeader data={sectionHeader} className="center-content" />
           <div className={splitClasses}>
 
             <div className="split-item">
@@ -83,10 +83,10 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../../assets/images/clients/logo-vgz.png')}
+                  src={require('./../../../assets/images/features-split-image-01.png')}
                   alt="Features split 01"
-                  width={120}
-                  height={120} />
+                  width={528}
+                  height={396} />
               </div>
             </div>
 

@@ -110,6 +110,29 @@ const Hero = ({
             video="https://www.youtube.com/watch?v=VLHRGtGjkO8" // aici punem video pentru rulaj
             videoTag="iframe" />
         </div>
+        <Image
+                      src={require('./../../../assets/images/ServiceProcess.png')}
+                      alt="Features tile icon 04"
+                      width={1200}
+                      height={1200} />
+                      <div className="spacer-64 spacer-64-mobile"></div>
+                       <Image
+                      src={require('./../../../assets/images/IncidentProcess.png')}
+                      alt="Features tile icon 04"
+                      width={1200}
+                      height={1200} />
+                      <div className="spacer-64 spacer-64-mobile"></div>
+                       <Image
+                      src={require('./../../../assets/images/ProblemManagement.png')}
+                      alt="Features tile icon 04"
+                      width={1200}
+                      height={1200} />
+                      <div className="spacer-64 spacer-64-mobile"></div>
+                       <Image
+                      src={require('./../../../assets/images/ChangeManagement.png')}
+                      alt="Features tile icon 04"
+                      width={1200}
+                      height={1200} />
       </div>
     </section>
   );

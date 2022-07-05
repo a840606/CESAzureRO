@@ -141,7 +141,11 @@ const FeaturesSplit = ({
                   height={396} />
               </div>
             </div>
-
+            <Image
+                      src={require('./../../../assets/images/Service Management.png')}
+                      alt="Features tile icon 04"
+                      width={600}
+                      height={600} />
           </div>
         </div>
       </div>

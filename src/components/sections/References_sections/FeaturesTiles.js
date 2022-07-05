@@ -55,12 +55,12 @@ const FeaturesTiles = ({
         <p className='customers'>Supporting Customers</p>
           <div className={tilesClasses}>
          
-            <div className="tiles-item reveal-from-bottom">
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="100">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image-blank-blank mb-16">
                     <Image
-                      src={require('./../../../assets/images/clients/logo-vgz.webp')}
+                      src={require('./../../../assets/images/clients/logo-vgz.png')}
                       alt="Features tile icon 01"
                       width={128}
                       height={128} />

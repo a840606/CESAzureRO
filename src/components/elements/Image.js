@@ -74,7 +74,8 @@ const Image = ({
       height={height}
       alt={alt}
       onLoad={onLoad}
-      title={title} />
+      title={title}
+       />
   );
 }
 
